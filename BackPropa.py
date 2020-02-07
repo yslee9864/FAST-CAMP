@@ -9,7 +9,7 @@ def _m(A, B):
     return np.matmul(A, B)
 
 
-class Sigmoid:
+class Sigmoid: # SIGMOID F'N
   def __init__(self):
         self.last_o = 1
 
