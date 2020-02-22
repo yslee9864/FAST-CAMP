@@ -1,0 +1,110 @@
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x86_amd64
+
+Microsoft(R) Program Maintenance Utility 버전 14.00.24245.0
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  brianlib/randomkit/randomkit.c /Fobrianlib\randomkit\randomkit.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+randomkit.c
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/neurongroup_resetter_codeobject.cpp /Focode_objects\neurongroup_resetter_codeobject.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+neurongroup_resetter_codeobject.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/neurongroup_stateupdater_codeobject.cpp /Focode_objects\neurongroup_stateupdater_codeobject.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+neurongroup_stateupdater_codeobject.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/neurongroup_thresholder_codeobject.cpp /Focode_objects\neurongroup_thresholder_codeobject.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+neurongroup_thresholder_codeobject.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/poissongroup_thresholder_codeobject.cpp /Focode_objects\poissongroup_thresholder_codeobject.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+poissongroup_thresholder_codeobject.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/spikemonitor_codeobject.cpp /Focode_objects\spikemonitor_codeobject.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+spikemonitor_codeobject.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/statemonitor_codeobject.cpp /Focode_objects\statemonitor_codeobject.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+statemonitor_codeobject.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/synapses_group_variable_set_conditional_codeobject.cpp /Focode_objects\synapses_group_variable_set_conditional_codeobject.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+synapses_group_variable_set_conditional_codeobject.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/synapses_post_codeobject.cpp /Focode_objects\synapses_post_codeobject.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+synapses_post_codeobject.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/synapses_post_initialise_queue.cpp /Focode_objects\synapses_post_initialise_queue.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+synapses_post_initialise_queue.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/synapses_post_push_spikes.cpp /Focode_objects\synapses_post_push_spikes.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+synapses_post_push_spikes.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/synapses_pre_codeobject.cpp /Focode_objects\synapses_pre_codeobject.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+synapses_pre_codeobject.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/synapses_pre_initialise_queue.cpp /Focode_objects\synapses_pre_initialise_queue.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+synapses_pre_initialise_queue.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/synapses_pre_push_spikes.cpp /Focode_objects\synapses_pre_push_spikes.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+synapses_pre_push_spikes.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  code_objects/synapses_synapses_create_generator_codeobject.cpp /Focode_objects\synapses_synapses_create_generator_codeobject.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+synapses_synapses_create_generator_codeobject.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  main.cpp /Fomain.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+main.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  network.cpp /Fonetwork.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+network.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  objects.cpp /Foobjects.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+objects.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  run.cpp /Forun.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+run.cpp
+	cl /c /EHsc /I. -Ibrianlib/randomkit -IC:\Python\Python37\Library\include /Ox /w /arch:AVX2 /MP  synapses_classes.cpp /Fosynapses_classes.obj
+Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+synapses_classes.cpp
+	link @sourcefiles.txt /LIBPATH:brianlib/randomkit /LIBPATH:C:\Python\Python37\Library\Lib advapi32.lib /OUT:main.exe
+Microsoft (R) Incremental Linker Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+objects main code_objects\synapses_synapses_create_generator_codeobject code_objects\synapses_group_variable_set_conditional_codeobject code_objects\statemonitor_codeobject code_objects\neurongroup_stateupdater_codeobject code_objects\neurongroup_thresholder_codeobject code_objects\poissongroup_thresholder_codeobject code_objects\spikemonitor_codeobject code_objects\synapses_pre_initialise_queue code_objects\synapses_pre_codeobject code_objects\synapses_pre_push_spikes code_objects\synapses_post_initialise_queue code_objects\synapses_post_codeobject code_objects\synapses_post_push_spikes code_objects\neurongroup_resetter_codeobject network synapses_classes run brianlib\randomkit\randomkit 

@@ -22,7 +22,7 @@ class Sigmoid:
           self.last_o = 1 / (1.0 + np.exp(-x))
           return self.last_o
 
-     def grad(self):  # sigmoid(x)(1-sigmoid(x))
+     def grad(self):  # sigmoid(x)(1-sigmoid(x)) 시그모이드 함수의 미분
           return self.last_o * (1 - self.last_o)
 
 
@@ -43,8 +43,7 @@ class MeanSquaredError:
 
 
 class Neuron:
-     def __init__(self, W, b, a_obj):
-          # Model parameters
+     def __init__(self, W, b, a_obj): # Model parameters
           self.W = W
           self.b = b
           self.a = a_obj() # 객체 a를 함수라고 선언하는 것일까? ???
@@ -66,7 +65,7 @@ class Neuron:
           return self.a(self.last_h)  # activation f'n 까지 고려
 
      def grad(self):  # 역전파 학습에서 이전 입력 h(n-1)로 미분 dy/dh = W
-          return self.W * self.a.grad()  # 예를 activation gradient라고 한다.
+          return self.W * self.a.grad()  # 예를 activation gradient 라고 한다.
 
      def grad_W(self, dh):
           grad = np.ones_like(self.W)

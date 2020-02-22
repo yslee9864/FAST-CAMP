@@ -134,7 +134,7 @@ x = np.random.normal(0.0, 1.0, (10,))
 y = np.random.normal(0.0, 1.0, (2,))
 
 t = time.time()
-dnn = DNN(hidden_depth=5, num_neuron=32, input=10, output=2, activation=Sigmoid)
+dnn = DNN(hidden_depth=3, num_neuron=8, input=10, output=2, activation=Sigmoid)
 loss_obj = MeanSquaredError()
 for epoch in range(100):
      loss = gradient_descent(dnn, x, y, loss_obj, alpha=0.01)
